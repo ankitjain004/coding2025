@@ -1,5 +1,17 @@
-package Easy;
+package LeetCode75;
+/*
+Approach 1 : One pointer on both and then once the shorter ends run another loop
 
+Approach 2 , same time complexity but if you want to write less code just follow this
+
+run for loop till max (length of both string )
+and check if current index is less than length of str1 -> add
+same check for str2
+
+Keep doing till max(m,n)
+
+
+ */
 public class MergeStringsAlternately {
     public static void main(String[] args) {
         String str = mergeAlternately("1357", "2468");
