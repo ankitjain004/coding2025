@@ -1,3 +1,5 @@
+package Easy;
+
 public class MergeStringsAlternately {
     public static void main(String[] args) {
         String str = mergeAlternately("1357", "2468");

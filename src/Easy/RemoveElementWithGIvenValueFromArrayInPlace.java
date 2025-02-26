@@ -1,4 +1,4 @@
-/*
+package Easy;/*
 https://leetcode.com/problems/remove-element/description/
 
 There are 2 ways basically to solve the problem
