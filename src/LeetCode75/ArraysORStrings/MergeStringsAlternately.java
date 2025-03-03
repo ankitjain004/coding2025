@@ -1,4 +1,4 @@
-package LeetCode75;
+package LeetCode75.ArraysORStrings;
 /*
 Approach 1 : One pointer on both and then once the shorter ends run another loop
 
