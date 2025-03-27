@@ -21,7 +21,7 @@ public class MaximalLevelSumOfBinaryTree
         root.left.left = new TreeNode(7);
         root.left.right = new TreeNode(-8);
 
-        MaxLevelSum solution = new MaxLevelSum();
+        MaximalLevelSumOfBinaryTree solution = new MaximalLevelSumOfBinaryTree();
         System.out.println("Level with max sum: " + solution.maxLevelSum(root)); // Expected Output: 2
     }
 
@@ -77,27 +77,5 @@ public class MaximalLevelSumOfBinaryTree
             }
         }
         return maximalSumLevelName;
-    }
-}
-
-/**
- * Definition for a binary tree node.
- */
-class TreeNode
-{
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int val)
-    {
-        this.val = val;
-    }
-
-    TreeNode(int val, TreeNode left, TreeNode right)
-    {
-        this.val = val;
-        this.left = left;
-        this.right = right;
     }
 }
